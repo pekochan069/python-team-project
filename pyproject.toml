@@ -10,3 +10,13 @@ dependencies = [
     "numpy>=2.2.6",
     "pandas>=2.2.3",
 ]
+
+[dependency-groups]
+dev = ["poethepoet>=0.34.0", "ruff>=0.11.11"]
+
+[tool.uv]
+
+[tool.poe.tasks]
+main = "src/main.py"
+format = "ruff format ."
+lint = "ruff check --fix ."
