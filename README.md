@@ -32,3 +32,15 @@ cd python-team-project
 
 uv sync
 ```
+
+### 스크립트 실행
+
+```sh
+uv run poe {script-name}
+```
+
+가능한 스크립트
+
+- `main` - 메인 프로젝트 실행
+- `format`
+- `lint`
