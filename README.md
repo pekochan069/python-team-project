@@ -23,3 +23,12 @@ uv init
 ```sh
 uv add {package}
 ```
+
+### 프로젝트 환경 동기화
+
+```sh
+git clone https://github.com/pekochan069/python-team-project
+cd python-team-project
+
+uv sync
+```
